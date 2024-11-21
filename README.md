@@ -3,6 +3,9 @@
 
 https://docs.google.com/document/d/1pmo_NX_ZfmEtSR7PkO8wVo0BXL2NZ5HNvDyUfYcMSJY/edit?usp=sharing
 
-# Web Accessibility
+# Site Url
+[https://unique-pika-1b5864.netlify.app/](https://unique-pika-1b5864.netlify.app/)
 
-## Replace this text with your response here...
+# Web Accessibility
+Using Google's integrated [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) analysis, I found that a meta description tag was required to meet best SEO practices. Using [WAVE's](https://wave.webaim.org) web accessibility evaluation tools, I also found that I was missing a neccessary label for the contact body. Since I thought the placeholder text was descriptive enough, I decided to add an aria-label and title property to the marked textarea tag.
+
